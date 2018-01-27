@@ -1,7 +1,7 @@
 package cn.edu.gdmec.android.activitylife;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,6 +13,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView ( R.layout.activity_main );
 
         Log.i ("MainActivity","调用onCreate方法");
+
+        //通过显示意图开启Activity
+        /*Intent intent = new Intent ( this,Main2Activity.class );
+        startActivity ( intent );*/
+
+
 
     }
 
